@@ -1,0 +1,82 @@
+body{
+    background-color: black;
+    color: white;
+}
+.title{
+    text-align: center;
+    font-family: Raleway; font-size: 50px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; 
+    letter-spacing: 0px;
+}
+.phototitle{
+    width: 1280px;
+    height: 727px;
+    background: transparent url('img/photo-1516008805996-d2abb468cc9a.png') 0% 0% no-repeat padding-box;
+}
+.text{
+    display: inline-block;
+    padding: 0em;
+}
+.text p{
+    float: left;
+    text-align: left;
+    font-family: Raleway,Light; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; 
+    width: 470px;
+    margin: 40px 0 0 150px;
+}
+.text img{
+    width: 30%;
+    float: right;
+    align-items: center;
+    border: solid 1px black;
+
+}
+.features{
+    text-align: center;  
+    margin: 4em 0;
+    border: solid 1px black;
+    padding: 1em;
+    color: white;
+    background: #1E1A13
+}
+.features i{
+    display: block;
+    padding: 0.5em;
+}
+.feature{
+    width: 30%;
+    padding: 1%;
+    display: inline-block;
+    font-size: x-large;
+}
+.features h2{
+    text-align: center;
+    font-family: Raleway,Medium; font-size: 35px; font-style: italic; font-variant: normal;
+}
+.photos{
+    padding: 50px 100px;
+}
+.photo.s{
+    display: inline-block;
+    width: 29%;
+    margin: 0.75%;
+    padding: 0.75%;
+}
+.photo img{
+    width:100%;
+}
+.photo.r{
+    display: inline-block;
+    width: 29%;
+    margin: 0.75%;
+    padding: 0.75%;
+}
+footer{
+    background-color: #1E1A13;
+    padding: 2em;
+    text-align: center;
+    text-decoration: none;
+}
+
+ footer a:hover{
+     color: green;
+ }
